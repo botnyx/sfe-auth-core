@@ -12,7 +12,10 @@
     "type": "library",
     "require": {
 		    "php": ">=7.1",
-        "botnyx/sfe-shared-core": "^0.1"
+        "botnyx/sfe-shared-core": "^0.1",
+        "bshaffer/oauth2-server-php": "^1.11",
+        "chadicus/slim-oauth2": "^3.1"
+
     },
     "require-dev": {
 		    "phpunit/phpunit": "6.*"
