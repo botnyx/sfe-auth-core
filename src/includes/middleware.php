@@ -9,7 +9,7 @@ use Chadicus\Slim\OAuth2\Middleware;
 
 /* add the middleware */
 $app->add(function ($request, $response, $next) {
-	$sid= getCookieValue( $request,'SID');
+	$sid= \Botnyx\Sfe\Shared\Util::getCookieValue( $request,'SID');
 	//$request = $request->withHeader('Authorization', 'Bearer '.$sid);
 	//$response = $response->withHeader('Authorization', 'Bearer '.$sid);
 
