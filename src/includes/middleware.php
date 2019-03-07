@@ -30,4 +30,5 @@ $app->add(function ($request, $response, $next) {
 $authorization = new Middleware\Authorization($server, $app->getContainer() );
 
 /* create the authorization middleware */
-$loginMiddleware = new Botnyx\sfeAuth\Middleware\loginMiddleware($server, $app->getContainer() );
+//Botnyx\Sfe\Auth\Core\LoginMiddleWare
+$loginMiddleware = new Botnyx\Sfe\Auth\Core\LoginMiddleWare($server, $app->getContainer() );
