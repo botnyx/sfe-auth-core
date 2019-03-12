@@ -1,7 +1,6 @@
 <?php
 
 
-
 use Slim\Http;
 use Slim\Views;
 
